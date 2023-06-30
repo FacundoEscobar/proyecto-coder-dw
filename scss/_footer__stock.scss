@@ -1,0 +1,32 @@
+nav{
+    div{
+        p{
+            padding-left: 68rem;
+            width: 35%;
+            display: inline;
+        }
+    }
+}
+
+.ul__footer{
+    list-style-type: none;
+    li{
+        display: inline;
+        padding: 1rem;
+        margin-top: 10rem;
+    }
+}
+
+.stock__footer{
+    nav{
+        ul{
+            li{
+                a{
+                    color: #000000;
+                    font-family: 'Hind', sans-serif;
+                    text-decoration: none;
+                }
+            }
+        }
+    }
+}

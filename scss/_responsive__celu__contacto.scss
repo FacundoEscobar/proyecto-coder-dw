@@ -1,0 +1,47 @@
+/* responsive celu contacto */
+
+@media (max-width: 425px) {
+
+.main__contacto{
+    padding: 0;
+    article{
+        .grid__contacto{
+            display: flex;
+            flex-direction: column;
+        }
+        .grid__contacto--parrafo{
+            margin: 1rem;
+        }
+        .grid__contacto--form{
+            padding-left: 6rem;
+            .boton{
+                margin: 0.5rem;
+                margin-left: 1.5rem;
+            }
+        }
+        .aguscell__img{
+            display: none;
+        }
+    }
+}
+
+.footer__contacto{
+    nav{
+        .ul__footer--contacto{
+            display: flex;
+            flex-direction: column;
+            margin: 0;
+            li{
+                padding: 0;
+                margin: 0;
+            }
+        }
+        div{
+            .footer__parrafo{
+                padding: 0;
+            }
+        }
+    }
+}
+
+}

@@ -1,0 +1,13 @@
+/* responsive servicios tablet */
+@media (max-width: 768px) {
+    .footer__servicios{
+        nav{
+            .servicios__ul--footer{
+                margin-left: 8rem;
+            }
+        }
+        .parrafo__footer--servicios{
+            padding: 0;
+        }
+    }
+}

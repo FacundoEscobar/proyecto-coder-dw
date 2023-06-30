@@ -1,0 +1,65 @@
+/* responsive tablet stock */
+
+@media (max-width: 768px) {
+
+.imagen__publicidad{
+    display: none;
+}
+
+.carta{
+    width: max-content;
+    height: max-content;
+}
+
+.grid{
+    display: grid;
+    grid-template-columns: 35% min-content min-content min-content min-content;
+    grid-template-rows: 150px min-content min-content min-content;
+    grid-template-areas: 
+    "lista logoagus logoagus ... ..."
+    "producto producto1 producto2 ... ..."
+    "producto3 producto4 producto5 ... ..."
+    "producto6 producto7 ... ... ...";
+    .foto__agus{
+        position: absolute;
+        left: 25rem;
+    }
+    .carta{
+        grid-area: producto;
+    }
+    .carta2{
+        grid-area: producto1;
+    }
+    .carta3{
+        grid-area: producto2;
+    }
+    .carta4{
+        grid-area: producto3;
+    }
+    .carta5{
+        grid-area: producto4;
+    }
+    .carta6{
+        grid-area: producto5;
+    }
+    .carta7{
+        grid-area: producto6;
+    }
+    .carta8{
+        grid-area: producto7;
+    }
+}
+/* footer */
+
+    .stock__footer{
+        nav{
+            .ul__footer{
+                margin-left: 8rem;
+            }
+        }
+        .parrafo__footer--stock{
+            padding: 0;
+        }
+    }
+
+}

@@ -1,0 +1,45 @@
+/* Tablet contacto */
+
+@media (max-width: 768px) {
+
+    body{
+        overflow-x: hidden;
+    }
+
+    /* Main */
+    .main__contacto {
+        height: auto;
+        article{
+        .grid__contacto{
+            display: grid;
+            grid-template-columns: none;
+            grid-template-areas:
+                "imagenContacto parrafoContacto parrafoContacto"
+                "imagenContacto formulario"
+                "... boton aguscell";
+
+            .grid__contacto--imagen {
+                grid-area: imagenContacto;
+            }
+
+            .grid__contacto--parrafo {
+                grid-area: parrafoContacto;
+            }
+        }
+    }
+    }
+
+    .footer__contacto{
+        nav{
+            .ul__footer--contacto{
+                margin-left: 8rem;
+            }
+            div{
+                .footer__parrafo{
+                    padding: 0;
+                }
+            }
+        }
+    }
+
+}

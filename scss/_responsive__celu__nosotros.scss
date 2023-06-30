@@ -1,0 +1,45 @@
+/* responsive celular nosotros */
+
+@media (max-width: 425px) {
+.main__nosotros{
+    article{
+        .contenedor__imagenes{
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+        }
+        section{
+            display: flex;
+            .texto__corto{
+                display: none;
+            }
+            .texto__largo{
+                margin: 1rem;
+            }
+            .banner__grande{
+                display: none;
+            }
+        }
+    }
+}
+
+.nosotros__footer{
+    nav{
+        .nosotros__ul--footer{
+            display: flex;
+            flex-direction: column;
+            margin: 0;
+            li{
+                padding: 0;
+                margin: 0;
+            }
+        }
+        div{
+            .footer__parrafo{
+                padding: 0;
+            }
+        }
+    }
+}
+
+}

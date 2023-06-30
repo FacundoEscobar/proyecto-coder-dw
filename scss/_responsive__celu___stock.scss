@@ -1,0 +1,73 @@
+/* responsive celular stock */
+
+@media (max-width: 425px) {
+
+    .imagen__publicidad {
+        display: none;
+    }
+
+    .carta{
+        width: max-content;
+        height: max-content;
+    }
+
+    .grid{
+        display: grid;
+        grid-template-columns: 100%;
+        grid-template-rows: 4% 10% 10% 10% 10% 10% 10% min-content;
+        grid-template-areas: 
+        "lista"
+        "producto"
+        "producto1"
+        "producto2"
+        "producto3"
+        "producto4"
+        "producto5"
+        "producto6"
+        "producto7";
+        .carta{
+            grid-area: producto;
+            justify-self: center;
+            margin: 1rem;
+        }
+        .carta2{
+            grid-area: producto1;
+        }
+        .carta3{
+            grid-area: producto2;
+        }
+        .carta4{
+            grid-area: producto3;
+        }
+        .carta5{
+            grid-area: producto4;
+        }
+        .carta6{
+            grid-area: producto5;
+        }
+        .carta7{
+            grid-area: producto6;
+        }
+        .carta8{
+            grid-area: producto7;
+        }
+    }
+
+    .stock__footer{
+        nav{
+            .ul__footer{
+                display: flex;
+                flex-direction: column;
+                margin: 0;
+                li{
+                    padding: 0;
+                    margin-top: 0;
+                }
+            }
+        }
+        .parrafo__footer--stock{
+            padding: 0;
+        }
+    }
+
+}
